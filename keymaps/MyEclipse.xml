@@ -1,30 +1,16 @@
 <keymap version="1" name="MyEclipse" parent="Eclipse">
   <action id="CallHierarchy">
-    <keyboard-shortcut first-keystroke="ctrl alt h" />
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
-  <action id="CloseActiveTab" />
-  <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="shift ctrl f4" />
+  <action id="CallHierarchy.BaseOnThisType">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
-  <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="ctrl w" />
-  </action>
-  <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl space" />
-    <keyboard-shortcut first-keystroke="shift meta enter" />
-  </action>
+  <action id="ChangesView.ShelveSilently" />
   <action id="MethodHierarchy">
-    <keyboard-shortcut first-keystroke="ctrl meta h" />
-  </action>
-  <action id="OverrideMethods">
-    <keyboard-shortcut first-keystroke="ctrl meta o" />
-  </action>
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift ctrl w" />
+    <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="shift alt space" />
-    <keyboard-shortcut first-keystroke="meta enter" />
+    <keyboard-shortcut first-keystroke="meta slash" />
   </action>
 </keymap>
