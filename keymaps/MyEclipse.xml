@@ -14,6 +14,13 @@
     <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f1" />
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
   <action id="MethodHierarchy">
     <keyboard-shortcut first-keystroke="ctrl meta h" />
   </action>
